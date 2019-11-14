@@ -1,4 +1,5 @@
 import React from "react";
+
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // @material-ui/core components
@@ -32,8 +33,8 @@ class TeamSection extends React.Component {
       classes.imgFluid
     );
     return (
-      <div className={classes.section}>
-        <h2 className={classes.title}>Here is our team</h2>
+      <div className={classes.section} id="nosotros">
+        <h2 className={classes.title}>Conozca al equipo</h2>
         <div>
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
@@ -50,7 +51,7 @@ class TeamSection extends React.Component {
                   <p className={classes.description}>
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
+                    add some for people to be able to
                     follow them outside the site.
                   </p>
                 </CardBody>
@@ -93,7 +94,7 @@ class TeamSection extends React.Component {
                   <p className={classes.description}>
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
+                    add some for people to be able to
                     follow them outside the site.
                   </p>
                 </CardBody>
@@ -129,7 +130,7 @@ class TeamSection extends React.Component {
                   <p className={classes.description}>
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
+                    add some for people to be able to
                     follow them outside the site.
                   </p>
                 </CardBody>

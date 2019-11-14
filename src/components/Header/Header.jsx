@@ -87,10 +87,11 @@ class Header extends React.Component {
               brandComponent
             )}
           </div>
+          
           <Hidden smDown implementation="css">
             {rightLinks}
           </Hidden>
-          <Hidden mdUp>
+         <Hidden mdUp>
             <IconButton
               color="inherit"
               aria-label="open drawer"
@@ -98,7 +99,7 @@ class Header extends React.Component {
             >
               <Menu />
             </IconButton>
-          </Hidden>
+         </Hidden>
         </Toolbar>
         <Hidden mdUp implementation="css">
           <Drawer

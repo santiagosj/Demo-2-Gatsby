@@ -2,6 +2,9 @@ html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+html::-webkit-scrollbar{
+  display: none;
+}
 body {
   font-size: 1rem;
 }
