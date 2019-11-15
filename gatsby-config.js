@@ -10,13 +10,6 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-material-ui',
     {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name:'profile',
-        path: './data'
-      }
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'gatsby-starter-default',
