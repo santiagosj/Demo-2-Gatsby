@@ -38,8 +38,10 @@
     "react-icon": "^1.0.0",
     "react-icons": "^3.5.0",
     "react-router-dom": "^4.3.1",
+    "react-scrollspy": "^3.4.0",
     "react-slick": "^0.23.2",
     "react-swipeable-views": "^0.13.1",
+    "smoothscroll-polyfill": "^0.4.4",
     "typeface-roboto": "0.0.54",
     "typeface-roboto-slab": "0.0.72"
   },
