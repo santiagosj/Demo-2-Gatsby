@@ -23,8 +23,8 @@ class WorkSection extends React.Component {
             <h4 className={classes.description}>
               Envianos un mensaje haciendo click <a href="mailto:dl170195">AQUI</a>.<br/>
               Nuestros datos de contacto:
-              <p> <AlternateEmail/>  :  dl170195@gmail.com </p>
-              <p> <Phone/>  :  3547521263 </p>
+              <p> <AlternateEmail/>  : <a href="mailto:dl170195"> dl170195@gmail.com </a> </p>
+              <p> <Phone/>  : <a href="tel:3547521263">3547521263</a> </p>
               <p>Encontranos en Córdoba, Alta Gracia, Av.Dalinger 520</p>
             </h4>
           </GridItem>

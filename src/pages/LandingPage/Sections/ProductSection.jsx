@@ -19,11 +19,7 @@ class ProductSection extends React.Component {
       <div className={classes.section} id="servicios">
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Nuestros Servicios</h2>
-            <h5 className={classes.description}>
-              Estos son los servicios que ofrecemos y podrá encontrar aquí una referencia de los mismos.<br/>
-              De todas maneras le aconcejamos que no dude en comunicarse con nosotros y contarnos sobre su situación y le explicaremos como proceder.
-            </h5>
+            <h2 className={classes.title}>Nuestras Especialidades</h2>
           </GridItem>
         </GridContainer>
         <div>
@@ -66,7 +62,7 @@ class ProductSection extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Derechos Laboral"
+                title="Derecho Laboral"
                 description="Diferencias salariales. Despidos. Indemnizaciones. Enfermedades y accidentes."
                 icon={Check}
                 iconColor="success"
@@ -75,7 +71,7 @@ class ProductSection extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Derechos Familiar"
+                title="Derechos de Familia"
                 description="Declaratoria de herederos. Cuota Alimentaria. Compensaciones económicas. Regímenes de visita y comunicación. Sucesiones. Adjudicación de bienes. Particiones. Divorcios y compensaciones económicas. Acciones de filiación."
                 icon={Check}
                 iconColor="success"

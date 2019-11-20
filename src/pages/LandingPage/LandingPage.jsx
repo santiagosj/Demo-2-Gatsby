@@ -31,7 +31,7 @@ class LandingPage extends React.Component {
           rightLinks={<HeaderLinks />}
           color="transparent"
           routes={dashboardRoutes}
-          brand="Drill Abogados"
+          brand="Leyría - Liguori & Asoc"
           fixed
           changeColorOnScroll={{
             height: 400,
@@ -43,9 +43,9 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Drill and Brothers <br/>Estudio Jurídico</h1>
+                <h1 className={classes.title}>Leyría - Liguori & Asoc <br/>Estudio Jurídico</h1>
                 <h4>
-                  Todo lo que usted necesite saber sobre su situación legal. Será asesorado por nuestro equipo de profesionales enteramente a su disposición.
+                     Más de 25 años defendiendo los derechos de nuestros clientes de forma integral.
                 </h4>
                 <br />
               </GridItem>

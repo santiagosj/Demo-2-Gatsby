@@ -20,9 +20,9 @@ import CardFooter from "components/Card/CardFooter.jsx";
 
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
-import team1 from "assets/img/faces/avatar.jpg";
-import team2 from "assets/img/faces/christian.jpg";
-import team3 from "assets/img/faces/kendall.jpg";
+import team1 from "assets/img/faces/claudio.jpg";
+import team2 from "assets/img/faces/sofia.jpg";
+import team3 from "assets/img/faces/damian.jpg";
 
 class TeamSection extends React.Component {
   render() {
@@ -34,7 +34,7 @@ class TeamSection extends React.Component {
     );
     return (
       <div className={classes.section} id="nosotros">
-        <h2 className={classes.title}>Conozca al equipo</h2>
+        <h2 className={classes.title}>Conozca a nuestros profesionales</h2>
         <div>
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
@@ -43,9 +43,9 @@ class TeamSection extends React.Component {
                   <img src={team1} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Gigi Hadid
+                Claudio Leyria Zelechowski 
                   <br />
-                  <small className={classes.smallTitle}>Model</small>
+                  <small className={classes.smallTitle}>Socio Principal</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
@@ -86,9 +86,9 @@ class TeamSection extends React.Component {
                   <img src={team2} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Christian Louboutin
+                Sofia Liguori 
                   <br />
-                  <small className={classes.smallTitle}>Designer</small>
+                  <small className={classes.smallTitle}>Socia</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
@@ -122,9 +122,9 @@ class TeamSection extends React.Component {
                   <img src={team3} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Kendall Jenner
+                   Damian Leyria 
                   <br />
-                  <small className={classes.smallTitle}>Model</small>
+                  <small className={classes.smallTitle}>Socio</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
