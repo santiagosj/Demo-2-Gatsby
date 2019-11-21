@@ -31,7 +31,7 @@ class LandingPage extends React.Component {
           rightLinks={<HeaderLinks />}
           color="transparent"
           routes={dashboardRoutes}
-          brand="Leyría - Liguori & Asoc"
+          brand="Leyría Zelechowski & Asoc"
           fixed
           changeColorOnScroll={{
             height: 400,
@@ -43,7 +43,7 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Leyría - Liguori & Asoc <br/>Estudio Jurídico</h1>
+                <h1 className={classes.title}>Leyría Zelechowski & Asoc <br/>Estudio Jurídico</h1>
                 <h4>
                      Más de 25 años defendiendo los derechos de nuestros clientes de forma integral.
                 </h4>

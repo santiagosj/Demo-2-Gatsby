@@ -21,11 +21,11 @@ class WorkSection extends React.Component {
           <GridItem cs={12} sm={12} md={8}>
             <h2 className={classes.title}>Para más info puede Contactárnos</h2>
             <h4 className={classes.description}>
-              Envianos un mensaje haciendo click <a href="mailto:dl170195">AQUI</a>.<br/>
-              Nuestros datos de contacto:
-              <p> <AlternateEmail/>  : <a href="mailto:dl170195"> dl170195@gmail.com </a> </p>
-              <p> <Phone/>  : <a href="tel:3547521263">3547521263</a> </p>
-              <p>Encontranos en Córdoba, Alta Gracia, Av.Dalinger 520</p>
+              Envianos un mensaje haciendo click <a href="mailto:dl170195@gmail.com">AQUI</a>.<br/>
+              Puede contactarnos haciendo click en los siguientes enlaces:
+              <p> <AlternateEmail/>  : <a href="mailto:dl170195@gmail.com"> Envienos un E-mail </a> </p>
+              <p> <Phone/>  : <a href="tel:3547521263">Llamenos</a> </p>
+              <p>Encuentrenos en Córdoba, Alta Gracia, Av.Dalinger 520</p>
             </h4>
           </GridItem>
         </GridContainer>

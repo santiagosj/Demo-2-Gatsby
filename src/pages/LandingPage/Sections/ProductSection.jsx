@@ -71,7 +71,7 @@ class ProductSection extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Derechos de Familia"
+                title="Derecho de Familia"
                 description="Declaratoria de herederos. Cuota Alimentaria. Compensaciones económicas. Regímenes de visita y comunicación. Sucesiones. Adjudicación de bienes. Particiones. Divorcios y compensaciones económicas. Acciones de filiación."
                 icon={Check}
                 iconColor="success"

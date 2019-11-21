@@ -8,7 +8,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 
 // React icons
-import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
@@ -45,7 +45,7 @@ class TeamSection extends React.Component {
                 <h4 className={classes.cardTitle}>
                 Claudio Leyria Zelechowski 
                   <br />
-                  <small className={classes.smallTitle}>Socio Principal</small>
+                  <small className={classes.smallTitle}>Abogado Principal</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
@@ -56,26 +56,12 @@ class TeamSection extends React.Component {
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
-                  <Button
+                <Button
                     justIcon
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaTwitter/>
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <FaInstagram/>
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <FaFacebook/>
+                    <FaLinkedin/>
                   </Button>
                 </CardFooter>
               </Card>
@@ -88,7 +74,7 @@ class TeamSection extends React.Component {
                 <h4 className={classes.cardTitle}>
                 Sofia Liguori 
                   <br />
-                  <small className={classes.smallTitle}>Socia</small>
+                  <small className={classes.smallTitle}>Asociada</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
@@ -99,13 +85,6 @@ class TeamSection extends React.Component {
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <FaTwitter/>
-                  </Button>
                   <Button
                     justIcon
                     color="transparent"
@@ -124,7 +103,7 @@ class TeamSection extends React.Component {
                 <h4 className={classes.cardTitle}>
                    Damian Leyria 
                   <br />
-                  <small className={classes.smallTitle}>Socio</small>
+                  <small className={classes.smallTitle}>Asociado</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
@@ -135,26 +114,12 @@ class TeamSection extends React.Component {
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
-                  <Button
+                <Button
                     justIcon
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaTwitter/>
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <FaInstagram/>
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <FaFacebook/>
+                    <FaLinkedin/>
                   </Button>
                 </CardFooter>
               </Card>
