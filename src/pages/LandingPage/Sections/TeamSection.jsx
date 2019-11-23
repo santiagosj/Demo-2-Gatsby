@@ -6,9 +6,9 @@ import classNames from "classnames";
 import withStyles from "@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
-
+import Phone from "@material-ui/icons/Phone"
 // React icons
-import { FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin, FaWhatsapp,FaFacebook  } from 'react-icons/fa';
 
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
@@ -17,6 +17,7 @@ import Button from "components/CustomButtons/Button.jsx";
 import Card from "components/Card/Card.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 import CardFooter from "components/Card/CardFooter.jsx";
+import Wapp from "components/Wapp/Wapp.jsx"
 
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
@@ -25,6 +26,7 @@ import team2 from "assets/img/faces/sofia.jpg";
 import team3 from "assets/img/faces/damian.jpg";
 
 class TeamSection extends React.Component {
+  
   render() {
     const { classes } = this.props;
     const imageClasses = classNames(
@@ -32,6 +34,18 @@ class TeamSection extends React.Component {
       classes.imgRoundedCircle,
       classes.imgFluid
     );
+    const linkedin = {
+      color:'#0077b5',
+      position: 'absolute'
+    }
+    const phone = {
+      color:'#212121',
+      position: 'absolute'
+    }
+    const facebook = {
+      color:'#4267b2',
+      position:'absolute'
+    }
     return (
       <div className={classes.section} id="nosotros">
         <h2 className={classes.title}>Conozca a nuestros profesionales</h2>
@@ -56,15 +70,37 @@ class TeamSection extends React.Component {
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
-                <Button
+
+                  <Button
                     justIcon
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaLinkedin/>
+                    <a href="https://www.facebook.com/Estudio-Jur%C3%ADdico-Leyria-Zelechowski-y-Asoc-1377132792432086/" target="_blank" rel="noopener noreferrer" alt="" style={facebook}>
+                      <FaFacebook/>
+                    </a>
                   </Button>
+
+                  <Button 
+                    justIcon
+                    color="transparent"
+                    className={classes.margin5}
+                  >
+                     <Wapp number={'3547596899'} message={'Hola Claudio, buen día, necesito hacerte una consulta, estas disponible en este momento?'}/>
+                  </Button>
+
+                  <Button 
+                    justIcon
+                    color="transparent"
+                    className={classes.margin5}>
+                    <a  href="tel:3547596899" style={phone}>
+                       <Phone/>
+                    </a>
+                  </Button>
+
                 </CardFooter>
               </Card>
+
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
@@ -90,7 +126,28 @@ class TeamSection extends React.Component {
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaLinkedin/>
+                     <a href="https://www.linkedin.com/in/sofia-liguori-87776617a/" target="_blank" rel="noopener noreferrer" alt="" style={linkedin}>
+                        <FaLinkedin/>
+                    </a>
+                  </Button>
+                  <Button 
+                    justIcon
+                    color="transparent"
+                    className={classes.margin5}
+                  >
+                    <Wapp number={'3512084530'} message={'Hola Sofía, buen día, necesito hacerte una consulta, estas disponible en este momento?'}>
+                        <FaWhatsapp/>
+                    </Wapp>
+                     
+                  </Button>
+
+                  <Button 
+                    justIcon
+                    color="transparent"
+                    className={classes.margin5}>
+                    <a  href="tel:3512084530" style={phone}>
+                       <Phone/>
+                    </a>
                   </Button>
                 </CardFooter>
               </Card>
@@ -119,8 +176,31 @@ class TeamSection extends React.Component {
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaLinkedin/>
+                      <a href="https://www.linkedin.com/in/damian-leyria-a18782172/" target="_blank" rel="noopener noreferrer" alt="" style={linkedin}>
+                         <FaLinkedin />
+                      </a>  
+
                   </Button>
+                  <Button 
+                    justIcon
+                    color="transparent"
+                    className={classes.margin5}
+                  >
+                    <Wapp number={'3547521263'} message={'Hola Damian, buen día, necesito hacerte una consulta, estas disponible en este momento?'}>
+                        <FaWhatsapp/>
+                    </Wapp>
+                     
+                  </Button>
+
+                  <Button 
+                    justIcon
+                    color="transparent"
+                    className={classes.margin5}>
+                    <a  href="tel:3547521263" style={phone}>
+                       <Phone/>
+                    </a>
+                  </Button>
+                  
                 </CardFooter>
               </Card>
             </GridItem>
