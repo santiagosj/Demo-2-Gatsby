@@ -35,7 +35,7 @@ class WorkSection extends React.Component {
       <div className={classes.section} id="contacto">
         <GridContainer justify="center">
           <GridItem cs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Para más info puede Contactárnos</h2>
+            <h2 className={classes.title}>Para más info puede Contactarnos</h2>
             <h4 className={classes.description}>
               Envianos un e-mail haciendo click <a href="mailto:dl170195@gmail.com">AQUI</a>.<br/>
               Puede contactarnos haciendo click en los siguientes enlaces:
