@@ -31,6 +31,10 @@ class WorkSection extends React.Component {
     const margin={
       margin: '0 10px'
     }
+   const maps = {
+     width:'100%',
+     height: 300
+   }
     return (
       <div className={classes.section} id="contacto">
         <GridContainer justify="center">
@@ -48,7 +52,7 @@ class WorkSection extends React.Component {
                     className={classes.margin5}
                     style={margin}
                   >
-                    <a href="https://www.facebook.com/Estudio-Jur%C3%ADdico-Leyria-Zelechowski-y-Asoc-1377132792432086/" target="_blank" rel="noopener noreferrer" alt="" style={facebook}>
+                    <a href="https://www.facebook.com/Estudio.Juridico.Integral1994/?__tn__=%2CdkCH-R-R&eid=ARDzAT9DrBCQQ7uxdApTXquCsFAWL9Rbiorbmk-Ezj2U2uzpRXZjQ-GyqGNIvV0UmsZUNlamtEeO-4qG&hc_ref=ARRIbWOupKuuY3lXJajCt-ZuIKls_1bmXg1RpazgB7EFEZCdkBgbycbGasHisx_FLRc&fref=nf&hc_location=group/" target="_blank" rel="noopener noreferrer" alt="" style={facebook}>
                       <FaFacebook/>
                     </a>
 
@@ -75,9 +79,21 @@ class WorkSection extends React.Component {
                     </a>
                   </Button>
                
-              <p> Encuentrenos en Córdoba, Alta Gracia, Av.Dalinger 520 </p>
+              <h2> Encuentrenos en Alta Gracia, Córdoba, Av.Dalinger 520 </h2>
             </h4>
+            <div className={classes.section} >
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13585.511447661269!2d-64.427687!3d-31.6508804!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf5eec8e44d99b800!2sEstudio%20Jur%C3%ADdico%20-%20Leyria%20Zelechowski%20y%20Asoc.!5e0!3m2!1ses-419!2sar!4v1575030405397!5m2!1ses-419!2sar"
+                frameBorder={0}
+                title="mapa"
+                scrolling="vertical"
+                allowFullScreen
+                style={maps}
+            />
+            
+            </div>
           </GridItem>
+         
         </GridContainer>
       </div>
     );

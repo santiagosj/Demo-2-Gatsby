@@ -8,7 +8,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 import Phone from "@material-ui/icons/Phone"
 // React icons
-import { FaLinkedin, FaWhatsapp,FaFacebook  } from 'react-icons/fa';
+import { FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
@@ -29,23 +29,23 @@ class TeamSection extends React.Component {
   
   render() {
     const { classes } = this.props;
+
     const imageClasses = classNames(
       classes.imgRaised,
       classes.imgRoundedCircle,
       classes.imgFluid
     );
+
     const linkedin = {
       color:'#0077b5',
       position: 'absolute'
     }
+    
     const phone = {
       color:'#212121',
       position: 'absolute'
     }
-    const facebook = {
-      color:'#4267b2',
-      position:'absolute'
-    }
+    
     return (
       <div className={classes.section} id="nosotros">
         <h2 className={classes.title}>Conozca a nuestros profesionales</h2>
@@ -61,32 +61,14 @@ class TeamSection extends React.Component {
                   <br />
                   <small className={classes.smallTitle}>Abogado Principal</small>
                 </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some for people to be able to
-                    follow them outside the site.
-                  </p>
-                </CardBody>
                 <CardFooter className={classes.justifyCenter}>
-
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <a href="https://www.facebook.com/Estudio-Jur%C3%ADdico-Leyria-Zelechowski-y-Asoc-1377132792432086/" target="_blank" rel="noopener noreferrer" alt="" style={facebook}>
-                      <FaFacebook/>
-                    </a>
-                  </Button>
 
                   <Button 
                     justIcon
                     color="transparent"
                     className={classes.margin5}
                   >
-                     <Wapp number={'3547596899'} message={'Hola Claudio, buen día, necesito hacerte una consulta, estas disponible en este momento?'}/>
+                     <Wapp number={'3547596899'} message={'Hola Dr.Layria, necesito hacerte una consulta, estas disponible en este momento?'}/>
                   </Button>
 
                   <Button 
@@ -112,14 +94,7 @@ class TeamSection extends React.Component {
                   <br />
                   <small className={classes.smallTitle}>Asociada</small>
                 </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some for people to be able to
-                    follow them outside the site.
-                  </p>
-                </CardBody>
+               
                 <CardFooter className={classes.justifyCenter}>
                   <Button
                     justIcon
@@ -135,7 +110,7 @@ class TeamSection extends React.Component {
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <Wapp number={'3512084530'} message={'Hola Sofía, buen día, necesito hacerte una consulta, estas disponible en este momento?'}>
+                    <Wapp number={'3512084530'} message={'Hola Sofía, necesito hacerte una consulta, estas disponible en este momento?'}>
                         <FaWhatsapp/>
                     </Wapp>
                      
@@ -162,14 +137,7 @@ class TeamSection extends React.Component {
                   <br />
                   <small className={classes.smallTitle}>Asociado</small>
                 </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some for people to be able to
-                    follow them outside the site.
-                  </p>
-                </CardBody>
+               
                 <CardFooter className={classes.justifyCenter}>
                 <Button
                     justIcon
